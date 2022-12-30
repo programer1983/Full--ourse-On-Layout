@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/"/>
+    <title>My Lauout Project</title>
+</head>
+<body>
+   <form action="#" method="get"> 
+     <!-- method="post" enctype="multipart/form-data" -->
+    <div>
+        <p>Name</p>
+        <input placeholder="Enter your name" type="text" name="username" tabindex="1"/>
+    </div>
+    <div>
+        <p>Password</p>
+        <input type="password" name="userpass" tabindex="2"/>
+    </div>
+    <div>
+        <p>Phone</p>
+        <input type="tel" name="userphone" tabindex="3"/>
+    </div>
+    <div>
+        <p>Gender</p>
+        <div>
+            <input checked type="radio" name="gender" value="male" tabindex="4"/>Mens
+        </div>
+        <div>
+            <input type="radio" name="gender" value="female" tabindex="4"/>Feminine
+        </div>
+    </div>
+    <div>
+        <p>Property</p>
+        <div>
+            <input checked type="checkbox" name="bike" value="yes" tabindex="5"/>Bike
+        </div>
+        <div>
+            <input type="checkbox" name="car" value="yes" tabindex="6"/>Car
+        </div>
+        <div>
+            <input disabled type="checkbox" name="house" value="yes" tabindex="7"/>Apartment
+        </div>
+    </div>
+    <div>
+        <p>Additional Information</p>
+        <textarea name="text" tabindex="8"></textarea>
+    </div>
+    <div>
+        <p>Add Photo</p>
+        <input type="file" tabindex="9"/>
+    </div>
+    <div>
+        <p>Favorite color</p>
+        <select name="color" tabindex="10">
+            <option value="red">Red</option>
+            <option selected value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </div>
+    <div>
+        <p>Action</p>
+        <button type="submit" tabindex="11">Send</button>
+        <button type="reset" tabindex="12">Clean up</button>
+    </div>
+   </form>
+    <script src="js/"></script>
+</body>
+</html>
