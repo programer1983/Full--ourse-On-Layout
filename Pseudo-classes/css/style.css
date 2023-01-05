@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 400;
+}
+
+
+/*==================================================================================*/
+
+body {
+    padding: 30px;
+}
+
+body p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+
+.block {
+    margin-bottom: 40px;
+}
+
+
+.block p:last-child {
+    text-transform: uppercase;
+}
+
+/*  turn on block__text in index.html see the difference */
+/*=========================================================*/
+
+.block:hover {
+    background: rgb(223, 216, 216);;
+}
+
+/* .block p:nth-child(odd){
+    background-color: yellow;
+}
+
+.block p:nth-child(even){
+    background-color: #eee;
+} */
+
+/* .block p:nth-child(1){
+    background-color: green;
+}
+
+.block p:nth-child(2){
+    background-color: red;
+}
+
+.block p:nth-child(3){
+    background-color: gray;
+} */
+
+/* .block p:nth-child(3):hover{
+    background-color: yellowgreen;
+}  */
+
+.link {
+    color: red;
+}
+
+.link:visited {
+    color: green;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.textinput {
+    border: 1px solid #666;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.textinput:focus {
+    box-shadow: 0, 0, 10px, rgba(0, 0, 0, 0.8);
+}
+
+.textbutton {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #666;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.textbutton:hover {
+    background-color: #333;
+    color: yellow;
+}
+
+.textbutton:active {
+    background-color: #fff;
+}
+
+
+.list {
+
+}
+
+.list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* .list li:first-child {
+    color: green;
+}
+
+.list li:last-child {
+    color: brown;
+    font-weight: 700;
+} */
+
+/* .list li:nth-child(4){
+    text-decoration: underline; 
+} */
+
+/* .list li:nth-child(odd){
+    text-transform: uppercase;
+} */
+
+.list li:nth-child(even){
+    text-transform: uppercase;
+}
