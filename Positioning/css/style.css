@@ -108,15 +108,13 @@ body {
 .block__2 {
     background-color: #766a8d;
     color: white;
-    position: relative;
-    left: 50px;
-    top: 60px;
-    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
 .block__3 {
     background-color: #79bdaa;
-    position: relative;
-    z-index: 2;
+
 }
