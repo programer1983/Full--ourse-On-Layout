@@ -117,3 +117,9 @@ body {
 .block__3 {
     background-color: #79bdaa;
 }
+
+.block__4 {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}
