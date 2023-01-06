@@ -111,12 +111,14 @@ body {
     color: white;
     width: 100%;
     position: absolute;
-    right: 20px;
-    bottom: 30px;
+    top: 20px;
+    left: 30px;
 }
 
 
 .block__3 {
+    position: relative;
+    z-index: 2;
     background-color: #79bdaa;
 
 }
