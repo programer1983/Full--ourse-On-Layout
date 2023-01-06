@@ -108,6 +108,10 @@ body {
 .block__2 {
     background-color: #766a8d;
     color: white;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    z-index: 0;
 }
 
 
