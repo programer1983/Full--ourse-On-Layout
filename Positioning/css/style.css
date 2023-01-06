@@ -90,7 +90,7 @@ body {
     margin: 0px auto;
     height: 1500px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    position: relative; 
 }
 
 .block div {
@@ -110,7 +110,7 @@ body {
     background-color: #766a8d;
     color: white;
     position: sticky;
-    top: 2;
+    top: 0;
 }
 
 
