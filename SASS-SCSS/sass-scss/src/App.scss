@@ -1,13 +1,15 @@
 
+// variables
 $fz: 80px;
 $color_1: #000;
 $color_2: #fff;
 
+// templates
 .tplborder {
     border-bottom: 5px dashed red;
 }
 
-
+// mixin
 @mixin fontz($f, $c){
     font-size: $f;
     color: $c;
