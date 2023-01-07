@@ -8,6 +8,10 @@ $color_2: #fff;
 }
 
 
+@mixin fontz($f){
+    font-size: $f;
+}
+
 .block {
    padding: 30px;
    font-size: 50px;
@@ -38,7 +42,7 @@ $color_2: #fff;
 }
 
 .link-2 {
-    font-size: 80px;
+    @include fontz(100px);
     border-bottom: 5px dashed green;
 }
 
