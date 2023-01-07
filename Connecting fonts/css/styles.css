@@ -114,3 +114,25 @@ h6 {
 .text p {
     padding: 0px 0px 30px 0px;
 }
+
+
+.romanregular {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.romanregular p {
+    padding: 0px 0px 30px 0px;
+}
+
+
+.maaxmedium {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.maaxmedium p {
+    padding: 0px 0px 30px 0px;
+}
