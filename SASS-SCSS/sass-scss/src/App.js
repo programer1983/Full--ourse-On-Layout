@@ -10,6 +10,7 @@ function App() {
            Hello i am <span>Frilancer!</span>
         </div>
       </div>
+      <a href="" className="link" >Google</a>
     </div>
   );
 }

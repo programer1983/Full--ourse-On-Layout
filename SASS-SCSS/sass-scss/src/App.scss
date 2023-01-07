@@ -2,23 +2,25 @@
    padding: 30px;
    font-size: 50px;
    line-height: 60px;
-   >p {
-    color: red;
+   .block__text {
+      font-size: 80px;
+      
+      span {
+        color: green;
+      }
    }
-    .block__text {
-        font-size: 80px;
-        span {
-            color: green;
-        }
-   }
-   &.block-big {
-    font-size: 100px;
-   }
-} 
+}
+   
 
 .link {
     color: blue;
     text-decoration: underline;
+    font-size: 20px;
+
+    .block & {
+        font-size: 100px;
+    }
+    
     &:hover {
         color: green;
     }
