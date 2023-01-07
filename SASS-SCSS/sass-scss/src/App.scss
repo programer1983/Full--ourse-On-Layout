@@ -40,4 +40,6 @@ $color_2: #fff;
 
 .link-2 {
     font-size: 80px;
+    @extend %tplborder;
+    border-bottom: 5px dashed green;
 }
