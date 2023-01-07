@@ -1,4 +1,6 @@
 $fz: 80px;
+$color_1: #000;
+$color_2: #fff;
 
 
 .block {
@@ -16,7 +18,7 @@ $fz: 80px;
    
 
 .link {
-    color: blue;
+    color: $color_1;
     text-decoration: underline;
     font-size: $fz;
 
@@ -25,6 +27,6 @@ $fz: 80px;
     }
     
     &:hover {
-        color: green;
+        color: $color_2;
     }
 }
