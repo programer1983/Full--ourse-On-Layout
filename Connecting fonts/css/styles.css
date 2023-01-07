@@ -81,18 +81,18 @@ h6 {
 /*==================================*/
 
 @font-face {
-	font-family: 'Conv_R651-Roman-Regular';
-	src: url('fonts/R651-Roman-Regular.eot');
+	font-family: 'Roman-Regular';
+	src: url('./../fonts/R651-Roman-Regular.eot');
 	src: local('☺'), url('fonts/R651-Roman-Regular.woff') format('woff'), url('fonts/R651-Roman-Regular.ttf') format('truetype'), url('fonts/R651-Roman-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_maaxmedium';
-	src: url('fonts/maaxmedium.eot');
+	font-family: 'Maaxmedium';
+	src: url('./../fonts/maaxmedium.eot');
 	src: local('☺'), url('fonts/maaxmedium.woff') format('woff'), url('fonts/maaxmedium.ttf') format('truetype'), url('fonts/maaxmedium.svg') format('svg');
-	font-weight: normal;
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -120,6 +120,7 @@ h6 {
     margin: 0px 0px 30px 0px;
     font-size: 30px;
     line-height: 35px;
+    font-family: 'Roman-Regular';
 }
 
 .romanregular p {
@@ -131,6 +132,8 @@ h6 {
     margin: 0px 0px 30px 0px;
     font-size: 30px;
     line-height: 35px;
+    font-family: 'Maaxmedium';
+    font-weight: 500;
 }
 
 .maaxmedium p {
