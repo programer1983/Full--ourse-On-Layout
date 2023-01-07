@@ -1,9 +1,11 @@
 
-
 $fz: 80px;
 $color_1: #000;
 $color_2: #fff;
 
+.tplborder {
+    border-bottom: 5px dashed red;
+}
 
 
 .block {
@@ -32,17 +34,13 @@ $color_2: #fff;
     &:hover {
         color: $color_2;
     }
-    @extend %tplborder;
+    @extend .tplborder;
 }
 
 .link-2 {
     font-size: 80px;
-    @extend %tplborder;
     border-bottom: 5px dashed green;
 }
 
-%tplborder {
-    border-bottom: 5px dashed red;
-}
 
 
