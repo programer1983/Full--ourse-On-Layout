@@ -8,8 +8,9 @@ $color_2: #fff;
 }
 
 
-@mixin fontz($f){
+@mixin fontz($f, $c){
     font-size: $f;
+    color: $c;
 }
 
 .block {
@@ -42,7 +43,7 @@ $color_2: #fff;
 }
 
 .link-2 {
-    @include fontz(100px);
+    @include fontz(200px, blue);
     border-bottom: 5px dashed green;
 }
 
