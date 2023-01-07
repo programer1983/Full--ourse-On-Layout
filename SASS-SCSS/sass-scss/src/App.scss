@@ -6,9 +6,17 @@
     color: red;
    }
     .block__text {
-        font-size: 100px;
+        font-size: 80px;
         span {
             color: green;
         }
    }
-}  
+} 
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    &:hover {
+        color: green;
+    }
+}

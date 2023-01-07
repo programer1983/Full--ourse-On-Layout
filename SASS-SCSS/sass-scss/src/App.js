@@ -5,9 +5,8 @@ function App() {
   return (
     <div className="App">
       <div className="block">
-        <p>Paragraph 1</p>
+        <a href="" className="link" >Google</a>
         <div className="block__text">
-          <p>Paragraph 2</p>
            Hello i am <span>Frilancer!</span>
         </div>
       </div>
