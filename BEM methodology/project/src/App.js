@@ -4,7 +4,12 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      hello
+      <nav className="menu">
+        <a href="#" className="menu__link"></a>
+        <a href="#" className="menu__link"></a>
+        <a href="#" className="menu__link"></a>
+        <a href="#" className="menu__link"></a>
+      </nav>
     </div>
   );
 }
