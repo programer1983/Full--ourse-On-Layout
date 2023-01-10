@@ -9,13 +9,17 @@ body {
 }
 
 .block {
-    text-align: center;
     
     &__row {
         border: 20px solid #ece89d;
         margin: 0px 0px 30px 0px;
 
-        display: inline-flex;
+        display: flex;
+        // justify-content: flex-start;
+        // justify-content: flex-end;
+        // justify-content: center;
+        // justify-content: space-between;
+        // justify-content: space-around;
     }
 
     &__column {
