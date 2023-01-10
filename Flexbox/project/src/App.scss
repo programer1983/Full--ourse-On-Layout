@@ -16,7 +16,6 @@ body {
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         height: 700px;
 
 
@@ -25,7 +24,7 @@ body {
         }
         
         .block__column_2 {
-             
+            flex: 1 1 auto;
         }
         
         .block__column_3 {
