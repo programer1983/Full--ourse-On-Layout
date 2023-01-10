@@ -5,15 +5,17 @@ function App() {
   return (
     <div className="App">
       <div className="wrappwer">
-        <div className="block__row">
-          <div className="block__column">
-            <div className="block__item">1</div>
-          </div>
-          <div className="block__column">
-            <div className="block__item">2</div>
-          </div>
-          <div className="block__column">
-            <div className="block__item">3</div>
+        <div className="block">
+          <div className="block__row">
+            <div className="block__column">
+              <div className="block__item">1</div>
+            </div>
+            <div className="block__column">
+              <div className="block__item">2</div>
+            </div>
+            <div className="block__column">
+              <div className="block__item">3</div>
+            </div>
           </div>
         </div>
         <ul className='block__list'>
