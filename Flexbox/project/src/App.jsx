@@ -11,7 +11,7 @@ function App() {
               <div className="block__item">1</div>
             </div>
             <div className="block__column">
-              <div className="block__item">2<div>higher block</div></div>
+              <div className="block__item">2</div>
             </div>
             <div className="block__column">
               <div className="block__item">3</div>
