@@ -15,14 +15,24 @@ body {
         margin: 0px 0px 30px 0px;
 
         display: flex;
-        // flex-wrap: nowrap;
-        // flex-wrap: wrap;
-        // flex-wrap: wrap-reverse;
-       
+        align-items: center;
+
+        .block__column_1 {
+            // align-self: stretch;
+            align-self: flex-start;
+        }
+        
+        .block__column_2 {
+
+        }
+        
+        .block__column_3 {
+            align-self: flex-end;
+        }
     }
 
     &__column {
-        border: 20px solid #5e5373;
+        border: 20px solid #5e5373; 
     }
 
     &__item {
@@ -51,3 +61,4 @@ body {
         line-height: 15px;
     }
 }
+

@@ -7,13 +7,13 @@ function App() {
       <div className="wrappwer">
         <div className="block">
           <div className="block__row">
-            <div className="block__column">
-              <div className="block__item">1</div>
+            <div className="block__column block__column_1">
+              <div className="block__item ">1</div>
             </div>
-            <div className="block__column">
-              <div className="block__item">2</div>
+            <div className="block__column block__column_2">
+              <div className="block__item">2<div>higher block</div></div>
             </div>
-            <div className="block__column">
+            <div className="block__column block__column_3">
               <div className="block__item">3</div>
             </div>
           </div>
