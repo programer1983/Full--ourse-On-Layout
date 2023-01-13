@@ -81,6 +81,7 @@ h6 {
 
 body {
     font-family:Arial, Helvetica, sans-serif;
+    min-width: 1170px;
 }
 
 .wrapper {
@@ -102,7 +103,7 @@ body {
 .footer__row {
     display: flex;
     height: 65px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
