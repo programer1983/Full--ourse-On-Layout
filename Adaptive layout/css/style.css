@@ -81,18 +81,15 @@ h6 {
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    min-width: 1170px;
 }
 
 .wrapper {
-    min-height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     padding: 0px 15px;
 }
@@ -120,6 +117,7 @@ body {
     line-height: 36px;
 }
 
+
 .columns__title {
   text-align: center;
   margin: 0px 0px 30px 0px;
@@ -129,8 +127,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0px -8px;
-    /* max-width: 950px;
-    margin: 0px auto; */
 }
 
 .columns__column {
@@ -145,11 +141,11 @@ body {
 }
 
 .item__image {
-    flex: 0 0 200px;
+    
 }
 
 .item__image img {
-    width: 100%;
+    
 }
 
 .item__body {
