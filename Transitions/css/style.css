@@ -85,9 +85,6 @@ h6 {
     margin-top: 200px;
 }
 
-.container:hover .button {
-    width: 700px;
-}
 
 .block {
     display: flex;
@@ -107,54 +104,13 @@ h6 {
     border-radius: 10px;
     top: 0;
     position: relative;
-    transition-duration: 1s;
+    transition: all 1s ease 0s;
 }
 
 
-.button_1 {
+.button_1:hover {
     color: #fff;
     background-color: #5e6373;
     transition-timing-function: ease;
 }
-
-.button_2 {
-    color: #fff;
-    background-color: #18c5a4;
-    transition-timing-function: ease-in;
-}
-
-.button_3 {
-    color: #fff;
-    background-color: #a0781a;
-    transition-timing-function: ease-out;
-}
-
-.button_4 {
-    color: #fff;
-    background-color: #cb7070;
-    transition-timing-function: ease-in-out;
-}
-
-.button_5 {
-    color: #fff;
-    background-color: #2c1249;
-    transition-timing-function: linear;
-}
-
-.button_6 {
-    color: #fff;
-    background-color: #b0c5d2;
-    transition-timing-function: steps(10, start);
-}
-
-.button_7 {
-    color: #fff;
-    background-color: #deea36;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-
-
-
-
 
