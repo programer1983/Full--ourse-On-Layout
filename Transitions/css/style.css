@@ -104,7 +104,7 @@ h6 {
     border-radius: 10px;
     top: 0;
     position: relative;
-    transition: padding 1s ease 0s, color 2s ease-in 0.5s;
+    transition: all 1s ease 0s;
 }
 
 
@@ -112,6 +112,6 @@ h6 {
     color: #fff;
     padding: 5px;
     background-color: #5e6373;
-    transition-timing-function: ease;
+    transition: all 2s ease 0s;
 }
 
