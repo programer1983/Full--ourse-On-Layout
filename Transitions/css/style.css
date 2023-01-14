@@ -104,12 +104,13 @@ h6 {
     border-radius: 10px;
     top: 0;
     position: relative;
-    transition: all 1s ease 0s;
+    transition: padding 1s ease 0s, color 2s ease-in 0.5s;
 }
 
 
 .button_1:hover {
     color: #fff;
+    padding: 5px;
     background-color: #5e6373;
     transition-timing-function: ease;
 }
