@@ -101,6 +101,10 @@ body {
     animation-direction: alternate-reverse;
 }
 
+.content:hover .content__circle {
+    animation-play-state: paused;
+}
+
 @keyframes white-circle {
     0% {
         left: 0;
