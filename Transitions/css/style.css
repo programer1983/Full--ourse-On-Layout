@@ -102,9 +102,9 @@ h6 {
 .button_1 {
     color: #fff;
     background-color: #5e6373;
-    box-shadow: 0 3px 0px #3c354a;
+    box-shadow: 0 5px 0px #3c354a;
     background-color: #7751bf;
-    transition-duration: 1s;
+    transition-duration: 1s, 100ms;
     transition-property: background-color, top;
     
 }
