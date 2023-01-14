@@ -103,7 +103,11 @@ h6 {
     color: #fff;
     background-color: #5e6373;
     box-shadow: 0 3px 0px #3c354a;
-    background-color: #18b5a4;
+    background-color: #7751bf;
+    /* transition-duration: 1s; */
+    /* transition-duration: 5s; */
+     /* transition-duration: 0.5s; */
+     transition-duration: 0s;
 }
 
 .button_1:hover {
