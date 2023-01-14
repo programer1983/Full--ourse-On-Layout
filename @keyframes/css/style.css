@@ -102,7 +102,7 @@ body {
 }
 
 .content:hover .content__circle {
-    animation-play-state: paused;
+    animation-name: none;
 }
 
 @keyframes white-circle {
