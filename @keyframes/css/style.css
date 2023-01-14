@@ -97,9 +97,10 @@ body {
     animation-name: white-circle;
     animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-delay: -1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards; 
 }
 
 .content:hover .content__circle {
