@@ -105,7 +105,7 @@ h6 {
     box-shadow: 0 3px 0px #3c354a;
     background-color: #7751bf;
     transition-duration: 1s;
-    transition-property: background-color;
+    transition-property: background-color, top;
     
 }
 
