@@ -96,6 +96,7 @@ body {
 
     animation-name: white-circle;
     animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 @keyframes white-circle {
