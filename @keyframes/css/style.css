@@ -102,7 +102,7 @@ body {
     animation-delay: 0s;
     animation-fill-mode: forwards;  */
 
-    animation: white-circle 2s linear infinite alternate 0s forwards;
+    animation: white-circle 2s linear infinite alternate 0s forwards, red-circle 5s ease infinite alternate 0s forwards;
 }
 
 .content:hover .content__circle {
@@ -120,5 +120,19 @@ body {
 
     100% {
         left: 500px;
+    }
+}
+
+@keyframes red-circle {
+    0% {
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: #fff;
     }
 }
