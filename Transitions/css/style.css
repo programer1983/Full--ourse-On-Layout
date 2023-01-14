@@ -104,9 +104,9 @@ h6 {
     background-color: #5e6373;
     box-shadow: 0 5px 0px #3c354a;
     background-color: #7751bf;
-    transition-duration: 1s, 100ms;
-    transition-property: background-color, top;
-    
+    transition-duration: 1s, 100ms, 100ms;
+    transition-property: background-color, top, box-shadow;
+    transition-delay: 0s, 0.5s, 0.5s;
 }
 
 .button_1:hover {
