@@ -92,6 +92,10 @@ body {
     margin: 0px 0px 20px 0px;
 }
 
+.text__image img {
+    width: 100%;
+}
+
 .text p {
     margin: 0px 0px 20px 0px;
     font-size: 17px;
