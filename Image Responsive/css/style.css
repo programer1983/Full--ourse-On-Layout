@@ -85,15 +85,20 @@ body {
 
 .text {
     color: white;
-    padding: 30px 150px;
+    padding: 30px 15px;
 }
 
 .title {
     margin: 0px 0px 20px 0px;
 }
 
+.text__image {
+  display: flex;
+  justify-content: center;
+}
+
 .text__image img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .text p {
