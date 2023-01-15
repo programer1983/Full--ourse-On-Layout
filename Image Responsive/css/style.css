@@ -126,6 +126,7 @@ body {
 
 .cards__image {
 	margin: 0px 0px 20px 0px;
+    padding: 0px 0px 38% 0px;;
     height: 200px;
 	overflow: hidden;
 	position: relative;
@@ -135,7 +136,9 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .cards__body {
