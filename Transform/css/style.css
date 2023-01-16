@@ -59,10 +59,13 @@ p {
 
 /* translate */
 .content__translate {
+    transform: translate(-50%, 0px);
+    position: relative;
+    left: 50%;
 	background-color: #794f45;
 }
 .content__translate:hover {
-	transform: translate(20px, 20px);
+	transform: translate(0px, 0px);
 }
 
 /* scale */
