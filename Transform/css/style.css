@@ -76,7 +76,7 @@ p {
 
 /* rotate  */
 .content__rotate {
-	transform: rotate(0deg);
+	transform: rotate(45deg);
 	background-color: #7a956b;
 }
 .content__rotate:hover {
