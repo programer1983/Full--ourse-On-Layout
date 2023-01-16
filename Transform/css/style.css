@@ -59,11 +59,10 @@ p {
 
 /* translate */
 .content__translate {
-    transform: translate(50px, -50px);
 	background-color: #794f45;
 }
 .content__translate:hover {
-	transform: translate(0px, 0px);
+	transform: translate(20px, 20px);
 }
 
 /* scale */
