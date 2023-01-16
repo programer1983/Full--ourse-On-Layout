@@ -119,7 +119,7 @@ p {
 	background-color: rgba(255, 255, 255, 0.1);
 
 	perspective-origin: center;
-	perspective: 200px;
+	perspective: 400px;
 }
 .content__3D .content__wrapper3d div {
 	display: flex;
@@ -136,9 +136,9 @@ p {
 /* perspective */
 .content__perspective {
 	background-color: #7a956b;
-	transform: rotateX(50deg);
 }
 .content__perspective:hover {
+    transform: rotateX(50deg);
 }
 
 /* translate3D */
