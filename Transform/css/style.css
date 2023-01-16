@@ -89,7 +89,7 @@ p {
 	background-color: #794f45;
 }
 .content__skew:hover {
-	transform: skew(20deg, 5deg);
+	transform: skew(10deg, 0deg);
 }
 /* matrix */
 .content__matrix {
