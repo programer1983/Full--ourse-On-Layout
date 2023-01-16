@@ -71,7 +71,7 @@ p {
 	background-color: #77608d;
 }
 .content__scale:hover {
-	transform: scale(-1, 1);
+	transform: scale(1, -1);
 }
 
 /* rotate  */
