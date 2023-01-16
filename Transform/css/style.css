@@ -76,11 +76,11 @@ p {
 
 /* rotate  */
 .content__rotate {
-	transform: rotate(45deg);
+	transform: rotate(0deg);
 	background-color: #7a956b;
 }
 .content__rotate:hover {
-	transform: rotate(0deg);
+	transform: rotate(45deg);
 }
 
 /* skew */
