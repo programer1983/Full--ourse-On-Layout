@@ -54,6 +54,9 @@ p {
 .content__block {
 	margin: 0px 0px 50px 0px;
 }
+
+
+
 /* Основные стили */
 .section {
 	margin: 0px 0px 50px 0px;
@@ -84,6 +87,7 @@ div.section__item_info {
 	margin: 0px 0px 20px 0px;
 }
 span.section__item_info {
+    display: inline-block;
 	padding: 20px;
 	margin: 0px 0px 20px 0px;
 }
