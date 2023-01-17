@@ -101,7 +101,7 @@ img.section__image {
 	width: 500px;
 	padding: 15px;
 	box-sizing: border-box;
-	/* Попробовать на картинке */
+	/* Попробовать на картинке отключив глобальную box-sizing */
 }
 
 /* Отступы и фон */
@@ -237,8 +237,6 @@ img.section__image {
 .section__list li {
 	margin: 0px 0px 10px 0px;
 }
-.section__list li:last-child {
-}
 
 .section__item_item {
 	padding: 15px;
@@ -252,20 +250,28 @@ img.section__image {
 избежать проблем при отступах 
 с заливкой фона
 */
+.section__block *:last-child {
+    margin-bottom: 0;
+}
 
 .section__body_parent {
 	background-color: #7a956b;
 	padding: 50px 50px;
 }
+
 .section__list {
+    
 }
+
 .section__item_parent {
 	margin: 0px 0px 20px 0px;
 	/* Даже задав отступ тут будет проблема */
 }
+
 .section__item_parent:last-child {
 	margin: 0;
 }
+
 
 /*
 Внешние отступы не следует задавать 
