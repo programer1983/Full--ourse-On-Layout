@@ -85,12 +85,15 @@ body {
 
 .wrapper {
     padding: 30px;
+    color: white;
 }
 
+.grid {
+    margin: 0px 0px 20px 0px;
+}
 
-.title {
+h1, h2 {
     text-align: center;
-    color: white;
     margin-bottom: 40px;
 }
 
@@ -105,5 +108,17 @@ body {
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 30px;
-    color: white;
+}
+
+.grid__wrapper {
+    display: grid;
+    /* grid-template-areas: ; */
+}
+
+.grid__header,
+.grid__side,
+.grid__content {
+    padding: 30px;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    margin: 0px 0px 20px 0px;
 }
