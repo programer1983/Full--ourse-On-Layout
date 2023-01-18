@@ -102,7 +102,7 @@ body {
     /* display: inline-grid; */
 
     grid-template-columns: 30% 150px 50%;
-    grid-template-rows: 200px 300px;
+    grid-template-rows: 50% 50%;
 }
 
 .grid__item {
