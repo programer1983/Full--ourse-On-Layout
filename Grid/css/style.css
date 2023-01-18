@@ -114,11 +114,18 @@ h1, h2 {
 
 .grid__wrapper {
     display: grid;
-    grid-template-columns: 150px 1fr;
+
+    grid-template: 
+    [start] "header header" 100px [row2]
+    [row2] "side content" 1fr [row-end] / 150px 1fr;
+
+
+
+    /* grid-template-columns: 150px 1fr;
     grid-template-rows: 100px 1fr;
     grid-template-areas: 
     "header header"
-    "side content";
+    "side content"; */
 }
 
 .grid__header,
