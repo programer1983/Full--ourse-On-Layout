@@ -88,19 +88,26 @@ body {
 }
 
 .content {
-    
+    position: relative;
 }
 
 .title {
     text-align: center;
+    color: white;
+    margin-bottom: 40px;
 }
 
 .grid__body {
+    display: grid;
+    /* display: inline-grid; */
 
+    grid-template-columns: 200px;
+    grid-template-rows: ;
 }
 
 .grid__item {
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 30px;
+    color: white;
 }
