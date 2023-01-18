@@ -101,7 +101,7 @@ body {
     display: grid;
 
     /* grid-template-columns: 1fr 2fr 1fr; */
-    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-columns: 25% 33.333% 25%;
     grid-template-rows: 50% 50%;
 }
 
