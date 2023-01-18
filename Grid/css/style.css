@@ -148,3 +148,15 @@ h1, h2 {
 .grid__content {
     grid-area: content;
 }
+
+.grid-auto {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+}
+
+.grid-auto__item {
+    text-align: center;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    font-size: 30px;
+}
