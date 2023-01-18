@@ -87,7 +87,7 @@ body {
     padding: 30px;
 }
 
-.content {
+.grid {
     position: relative;
 }
 
@@ -101,7 +101,7 @@ body {
     display: grid;
 
     grid-template-columns: 0.2fr 0.5fr 0.9fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 2fr 1fr;
 }
 
 .grid__item {
