@@ -97,7 +97,7 @@ body {
 .grid__body {
     display: grid;
 
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: fit-content(400px) 1fr auto;
     grid-template-rows: 1fr 1fr;
 }
 
