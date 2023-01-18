@@ -99,9 +99,8 @@ body {
 
 .grid__body {
     display: grid;
-    /* display: inline-grid; */
 
-    grid-template-columns: 30% 150px 50%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
 }
 
