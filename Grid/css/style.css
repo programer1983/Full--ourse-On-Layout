@@ -97,7 +97,7 @@ body {
 .grid__body {
     display: grid;
 
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 1fr auto;
     grid-template-rows: 1fr 1fr;
 }
 
