@@ -100,8 +100,7 @@ body {
 .grid__body {
     display: grid;
 
-    /* grid-template-columns: 1fr 2fr 1fr; */
-    grid-template-columns: 25% 33.333% 25%;
+    grid-template-columns: 0.2fr 0.5fr 0.9fr;
     grid-template-rows: 50% 50%;
 }
 
