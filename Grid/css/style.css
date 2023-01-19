@@ -109,8 +109,8 @@ h1, h2 {
 }
 
 .grid__item_1 {
-    grid-row-start: 2;
-    grid-column-start: 3;
+    grid-row-start: span 2;
+    grid-column-start: 1;
 
     background-color: #794f45;
 }
