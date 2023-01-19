@@ -109,7 +109,7 @@ h1, h2 {
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 30px;
-    
+    margin: auto;
 }
 
 .grid__item_1 {
