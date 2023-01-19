@@ -103,9 +103,37 @@ h1, h2 {
 }
 
 .grid__item {
-    margin: 30px;
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 30px;
+}
+
+.grid__item_1 {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+
+    background-color: #794f45;
+}
+
+.grid__item_2 {
+    
+}
+
+.grid__item_3 {
+    
+}
+
+.grid__item_4 {
+    
+}
+
+.grid__item_5 {
+    
+}
+
+.grid__item_6 {
+    
 }
 
