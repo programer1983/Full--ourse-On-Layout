@@ -103,7 +103,7 @@ h1, h2 {
     grid-template-rows: [start] 150px [row2] 150px [row-end] ;
 
     justify-items: start;
-    align-items: start;
+    align-items: end;
     
 }
 
