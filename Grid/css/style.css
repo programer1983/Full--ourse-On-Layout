@@ -102,14 +102,14 @@ h1, h2 {
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
     grid-template-rows: [start] 150px [row2] 150px [row-end] ; 
 
-    row-gap: 20%;
-    column-gap: 20px;
+   gap: 15px;
 }
 
 .grid__item {
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
     padding: 30px;
+    
 }
 
 .grid__item_1 {
