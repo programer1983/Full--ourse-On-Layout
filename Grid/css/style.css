@@ -111,7 +111,7 @@ h1, h2 {
 
 .grid__item_1 {
     grid-row: start / row-end;
-    grid-column: 1 / 3;
+    grid-column: col2 / col3;
 
     background-color: #794f45;
 }
