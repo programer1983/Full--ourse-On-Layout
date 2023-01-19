@@ -114,13 +114,15 @@ h1, h2 {
 }
 
 .grid__item_1 {
+    align-self: stretch;
+    justify-self: stretch;
     
-
     background-color: #794f45;
 }
 
 .grid__item_2 {
-    
+    align-self: end;
+    justify-self: end;  
 }
 
 .grid__item_3 {
