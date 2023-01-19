@@ -110,7 +110,7 @@ h1, h2 {
 
 .grid__item_1 {
     grid-row-start: span 2;
-    grid-column-start: 1;
+    grid-column-start: span 3;
 
     background-color: #794f45;
 }
