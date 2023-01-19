@@ -99,7 +99,6 @@ h1, h2 {
 
 .grid__body {
     display: grid;
-    grid-template-rows: [start] 1fr [row2] 1fr [row-end];
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [row-end];
 }
 
@@ -110,29 +109,28 @@ h1, h2 {
 }
 
 .grid__item_1 {
-    grid-row: start / row-end;
-    grid-column: col2 / col3;
+    order: 1;
 
     background-color: #794f45;
 }
 
 .grid__item_2 {
-    
+    order: 1; 
 }
 
 .grid__item_3 {
-    
+    order: 5;
 }
 
 .grid__item_4 {
-    
+    order: 1;
 }
 
 .grid__item_5 {
-    
+    order: 6; 
 }
 
 .grid__item_6 {
-    
+    order: 3;  
 }
 
