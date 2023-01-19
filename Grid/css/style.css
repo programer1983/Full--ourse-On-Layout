@@ -99,7 +99,8 @@ h1, h2 {
 
 .grid__body {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-template-rows: [start] 1fr [row2] 1fr [row-end];
+    grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [row-end];
 }
 
 .grid__item {
@@ -109,8 +110,8 @@ h1, h2 {
 }
 
 .grid__item_1 {
-    grid-row-start: span 2;
-    grid-column-start: span 3;
+    grid-row-start: start;
+    grid-column-start: col3;
 
     background-color: #794f45;
 }
