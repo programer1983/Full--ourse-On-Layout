@@ -110,7 +110,7 @@ h1, h2 {
 }
 
 .grid__item_1 {
-    grid-row-start: row2;
+    grid-row: 1 / 2;
     grid-column-start: col2;
 
     background-color: #794f45;
