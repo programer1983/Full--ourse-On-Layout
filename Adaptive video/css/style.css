@@ -93,13 +93,14 @@ h6 {
 
 .items__container {
     max-width: 1200px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
 
 .items__body {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -110,10 +111,12 @@ h6 {
 .item__video {
     position: relative;
     margin: 0px 0px 15px 0px;
-    aspect-ratio: 16 / 9;
+    /* aspect-ratio: 16 / 9; */
+    padding: 0px 0px 56% 0px;
 }
 
 .item__video video {
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
