@@ -106,7 +106,6 @@ h6 {
 
 .item {}
 
-.video {}
 
 .item__video {
     position: relative;
@@ -115,7 +114,8 @@ h6 {
     padding: 0px 0px 56% 0px;
 }
 
-.item__video video {
+.item__video video, 
+.item__video iframe {
     object-fit: cover;
     position: absolute;
     top: 0;
