@@ -91,10 +91,12 @@ h6 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 50px 15px;
 }
 
 .full-screen__body {
+    background-color: rgba(15, 14, 14, 0.408);
+    color: #fff;
+    padding: 50px 15px;
     position: relative;
     z-index: 2;
     display: flex;
