@@ -115,23 +115,25 @@ body {
     position: relative;
 }
 
-.example__container::before {
-    content: "";
-    background: url("../img/decor.png") 0 0 / 100% no-repeat;
-    position: absolute;
-    right: 0;
+/* нужный размер 700px / 16px размер шрифта по умолчанию */
+@media (min-width: 48em) {
+    .example__container::before {
+        content: "";
+        background: url("../img/decor.png") 0 0 / 100% no-repeat;
+        position: absolute;
+        right: 0;
 
-    /* 153 / 1050 * 100 = 14,57 */
-    width: 14,57%; 
+        /* 153 / 1050 * 100 = 14,57 */
+        width: 14,57%; 
 
-    /* 241 / 1050 * 100 = 22,95 */
-    padding-top: 22,95%;
+        /* 241 / 1050 * 100 = 22,95 */
+        padding-top: 22,95%;
 
-    top: 50%;
+        top: 50%;
 
-    transform: translate(50%, -50%);
+        transform: translate(50%, -50%);
+    }
 }
-
 
 
 .example__header {
@@ -177,6 +179,15 @@ body {
 }
 
 
+/* нужный размер 768px / 16px размер шрифта по умолчанию */
+@media (max-width: 48em) {
+
+    /* нужный размер 30px / 16px размер шрифта по умолчанию */
+    .example__title {
+        font-size: 2rem;
+    }
+}
+
 .example__text {
      /*размер по макету 24px / 16px размер шрифта */
      line-height: 1.5;
@@ -199,7 +210,7 @@ body {
      /*общая ширина  / 3 */
      /* flex: 1 1 33, 333%; */
 
-     /* нужный размер 293px / 16 px по умолчанию */
+     /* нужный размер 293px / 16px размер шрифта по умолчанию */
      /* min-width: 18.125rem; */
 }
 
