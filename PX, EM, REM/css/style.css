@@ -134,8 +134,31 @@ body {
 
 
 
-.example__header {}
-.example__sub-title {}
+.example__header {
+    margin: 0px 0px 25px 0px;
+
+    /* ширина макета 750px / 16px шрифт по умолчанию*/
+    max-width: 46.875rem;
+}
+
+
+.example__sub-title {
+    color: #a989c7;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    /*размер по макету 14px / 16px размер по умолчанию*/
+    font-size: 0.875rem;
+
+
+    /*размер по макету 24px / 14px размер шрифта*/
+    line-height: 1.7;
+    
+    /*размер по макету 15px / 14px размер шрифта*/
+    margin: 0px 0px 1.07em 0px;
+}
+
+
 .example__title {}
 .example__text {}
 .example__items {}
