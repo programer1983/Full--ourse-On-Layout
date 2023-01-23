@@ -183,9 +183,22 @@ body {
 }
 
 
-.example__items {}
+.example__items {
+    display: flex;
+    row-gap: 24px;
+    margin: 0px -12px;
+    flex-wrap: wrap;
+}
 
-.example__item {}
+.example__item {
+    padding: 0px 12px;
+
+     /*общая ширина  / 3 */
+     flex: 1 1 33, 333%;
+
+     /* нужный размер 293px / 16 px по умолчанию */
+     min-width: 18.125rem;
+}
 
 .item-example {
     display: flex;
@@ -193,7 +206,7 @@ body {
 }
 
 .item-example__icon {
-    /* flex: 0 0 63px; */
+    flex: 0 0 63px;
     width: 100px;
     height: 100px;
 }
