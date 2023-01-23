@@ -96,3 +96,52 @@ body {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.example {
+    padding: 80px 0px;
+}
+
+
+.example__container {
+    padding: 0px 15px;
+    margin: 0px auto;
+    max-width: 65.625rem;
+    position: relative;
+}
+
+.example__container::before {
+    content: "";
+    background: url("../img/decor.png") 0 0 / 100% no-repeat;
+    position: absolute;
+    right: 0;
+
+    /* 153 / 1050 * 100 = 14,57 */
+    width: 14,57%; 
+
+    /* 241 / 1050 * 100 = 22,95 */
+    padding-top: 22,95%;
+
+    top: 50%;
+
+    transform: translate(50%, -50%);
+}
+
+
+
+.example__header {}
+.example__sub-title {}
+.example__title {}
+.example__text {}
+.example__items {}
+.example__item {}
+.item-example {}
+.item-example__icon {}
+.item-example__body {}
+.item-example__title {}
+.item-example__text {}
