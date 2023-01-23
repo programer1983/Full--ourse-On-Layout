@@ -158,13 +158,61 @@ body {
     margin: 0px 0px 1.07em 0px;
 }
 
+.example__title {
+    color: rgb(124, 201, 124);
+    text-transform: uppercase;
+    font-weight: 900;
 
-.example__title {}
-.example__text {}
+    /*размер по макету 42px / 16px размер шрифта по умолчанию*/
+    font-size: 2.625rem;
+
+    /*размер по макету 50px / 42px размер шрифта */
+    line-height: 1.19;
+
+    /*размер по макету 16px / 42px размер шрифта */
+    margin: 0px 0px 0.38em 0px;
+
+    /*размер по макету 5px / 42px размер шрифта */
+    letter-spacing: 0.12em;
+}
+
+
+.example__text {
+     /*размер по макету 24px / 16px размер шрифта */
+     line-height: 1.5;
+}
+
+
 .example__items {}
+
 .example__item {}
-.item-example {}
-.item-example__icon {}
+
+.item-example {
+    display: flex;
+    column-gap: 23px;
+}
+
+.item-example__icon {
+    /* flex: 0 0 63px; */
+    width: 100px;
+    height: 100px;
+}
+
 .item-example__body {}
-.item-example__title {}
-.item-example__text {}
+
+.item-example__title {
+    color: #f2728f;
+    font-weight: 900;
+
+     /*размер по макету 24px / 16px размер шрифта */
+     font-size: 1.5rem;
+
+      /*размер по макету 11px / 24px размер шрифта */
+      margin: 0px 0px 0.45em 0px;
+}
+
+
+.item-example__text {
+     /*размер по макету 24px / 16px размер шрифта */
+     line-height: 1.5;
+}
